@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.safewaychina.niceprogressbar.NiceHorizontalProgressBar
+        android:id="@+id/nicehorizontalprogressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="5dp"/>
+
+    <com.safewaychina.niceprogressbar.NiceRoundProgressBar
+        android:id="@+id/niceroundprogressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nicehorizontalprogressbar"
+        android:layout_marginTop="50dp"
+        app:radius="40dp"
+        android:padding="5dp"/>
+
+</RelativeLayout>
